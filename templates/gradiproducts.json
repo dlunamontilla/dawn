@@ -1,8 +1,10 @@
 {
+    "name": "GradiProducts",
     "sections": {
-
+        "main": {
+            "type": "productsgrid"
+        }
     },
-
     "order": [
         "main"
     ]
