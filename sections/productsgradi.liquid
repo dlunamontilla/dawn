@@ -14,5 +14,10 @@ Otra prueba que se realiza
 		line-height: 1.6;
 		margin: 20px auto;
 		border: 1px solid silver;
+		border-radius: 5px;
 	}
 {% endstyle %}
+
+{% for product in collection.products %}
+	{{ product.title }}
+{% endfor %}
