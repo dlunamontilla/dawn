@@ -2,8 +2,6 @@
   <h2>Contenido de prueba</h2>
 
 Otra prueba que se realiza
-  
-  {% include 'price' %}
 </div>
 
 
@@ -21,7 +19,7 @@ Otra prueba que se realiza
 {% endstyle %}
 
 <section class="container">
-  {%- for product in recommendations.products -%}
+  {% for product in products.collections %}
       {{ product.price }}
       {{ product.title }}
   
