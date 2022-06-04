@@ -19,12 +19,12 @@ Otra prueba que se realiza
 {% endstyle %}
 
 <section class="container">
-  {% for product in recommendations.products %}
+  {%- for product in recommendations.products -%}
       {{ product.price }}
       {{ product.title }}
   
   		¿Ocurre algo acá?
-  {% endfor %}
+  {%- endfor -%}
 </section>
 
 <section class="container">
