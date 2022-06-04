@@ -18,10 +18,12 @@ Otra prueba que se realiza
 	}
 {% endstyle %}
 
-{% for product in recommendations.products %}
-	{{ product.price }}
-	{{ product.title }}
-{% endfor %}
+<secction class="container">
+  {% for product in recommendations.products %}
+      {{ product.price }}
+      {{ product.title }}
+  {% endfor %}
+</secction>
 
 {% for i in (1..5) %}
 	{{ i }}
