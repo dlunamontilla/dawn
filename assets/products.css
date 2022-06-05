@@ -1,0 +1,10 @@
+.container {
+    padding: 20px;
+    background-color: silver;
+}
+
+.container__item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid blue;
+}

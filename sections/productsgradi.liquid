@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ 'products.css' | asset_url }}" media="print" onload="this.media='all'">
 <div class="container">
     <h2>Texto dentro de un contenedor</h2>
 
@@ -5,3 +6,12 @@
         Algún tipo de contenido
     </div>
 </div>
+
+{% for item in product.media %}
+    Algún valor
+    {{ item.id }}
+{% endfor %}
+
+{% for variant in product.variants %}
+    {{ variant.price }}
+{% endfor %}
