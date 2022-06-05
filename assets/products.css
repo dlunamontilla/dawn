@@ -8,6 +8,8 @@
     background-color: silver;
     max-width: var(--max-width);
     width: var(--width);
+
+    margin: 20px auto;
 }
 
 .container__item {
