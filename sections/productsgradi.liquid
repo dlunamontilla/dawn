@@ -1,41 +1,7 @@
 <div class="container">
-  <h2>Contenido de prueba</h2>
+    <h2>Texto dentro de un contenedor</h2>
 
-Otra prueba que se realiza
+    <div class="container__item">
+        Algún tipo de contenido
+    </div>
 </div>
-
-
-{% style %}
-
-	.container {
-		padding: 20px;
-		max-width: 1200px;
-		background-color: #f0f0f0;
-		line-height: 1.6;
-		margin: 20px auto;
-		border: 1px solid silver;
-		border-radius: 5px;
-	}
-{% endstyle %}
-
-<section class="container">
-This product belongs in the following collections:
-
-{% for collection in product.collections %}
-    {{ collection.title }}
-  
-  ¿Se muestra algo?
-{% endfor %}
-
-</section>
-
-<section class="container">
-  {% for i in (1..5) %}
-      {{ i }}
-  {% endfor %}
-</section>
-
-<section class="container">
-  Total products in collection: {{ collection.all_products_count }}
-
-</section>
