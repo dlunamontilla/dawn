@@ -1,12 +1,22 @@
+:root {
+    --max-width: 1200px;
+    --width: calc(100% - 20px);
+}
+
 .container {
     padding: 20px;
     background-color: silver;
+    max-width: var(--max-width);
+    width: var(--width);
 }
 
 .container__item {
     background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid blue;
+
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 h2 {
