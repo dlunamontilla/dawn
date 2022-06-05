@@ -15,3 +15,7 @@
 {% for variant in product.variants %}
     {{ variant.price }}
 {% endfor %}
+
+{% for item in collection.product %}
+    {{ item.price }}
+{% endfor %}
