@@ -8,3 +8,9 @@
     padding: 20px;
     border: 1px solid blue;
 }
+
+h2 {
+    border: 0;
+    border-bottom: 1px solid silver;
+    margin: 20px auto;
+}
