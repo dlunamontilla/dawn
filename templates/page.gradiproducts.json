@@ -1,0 +1,12 @@
+{
+    "wrapper": "div#div_id.div_class[attribute-one=pepito]",
+    "sections": {
+        "main": {
+            "type": "productsgradi",
+            "settings": {}
+        }
+    },
+    "order": [
+        "main"
+    ]
+}
